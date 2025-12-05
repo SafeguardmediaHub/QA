@@ -4,7 +4,7 @@
 
 ---
 
-**[← Back to Test Plan](./TEST-PLAN.md)** | **[Next: Test Data →](./TEST-DATA.md)**
+**[← Back to Home](./README.md)** | **[Next: Authentication Tests→](./features/01-authentication.md)**
 
 ---
 
@@ -996,7 +996,7 @@ Congratulations! Your testing environment is now set up.
 
 ---
 
-**[← Back to Home](./README.md)** | **[Next: Authentication →](./features/01-authentication.md)**
+**[← Back to Home](./README.md)** | **[Next: Authentication Tests →](./features/01-authentication.md)**
 
 ---
 

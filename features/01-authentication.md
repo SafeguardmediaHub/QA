@@ -4,7 +4,7 @@
 
 ---
 
-**[← Back to Home](../README.md)** | **[Next: Media Upload →](./02-media-upload.md)**
+**[← Back to Home](../README.md)** | **[Next: Media Processing →](./02-media-processing.md)**
 
 ---
 
@@ -1829,7 +1829,7 @@ _Table will be updated as testing progresses_
 
 ---
 
-**[← Back to Home](../README.md)** | **[Next: Media Upload →](./02-media-upload.md)**
+**[← Back to Home](../README.md)** | **[Next: Media Processing →](./02-media-processing.md)**
 
 ---
 
