@@ -1,6 +1,6 @@
 # Quality Assurance Documentation
 
-## SafeguardMedia Backend API Testing Suite
+## SafeguardMedia Testing Suite
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## Introduction
 
-Welcome to the SafeguardMedia Backend API Quality Assurance documentation. This comprehensive testing suite has been designed to validate the functionality, security, performance, and reliability of our AI-powered misinformation detection platform.
+Welcome to the SafeguardMedia Quality Assurance documentation. This comprehensive testing suite has been designed to validate the functionality, security, performance, and reliability of our AI-powered misinformation detection platform.
 
 ### About SafeguardMedia
 
