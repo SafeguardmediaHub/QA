@@ -1,4 +1,5 @@
 # Environment Setup Guide
+
 ## Preparing Your Testing Environment
 
 ---
@@ -49,13 +50,13 @@ Before beginning setup, ensure you have:
 
 ### Required Software
 
-| Software | Version | Purpose | Installation Link |
-|----------|---------|---------|-------------------|
-| **Node.js** | 18.x or higher | Runtime environment | [nodejs.org](https://nodejs.org) |
-| **pnpm** | 8.x or higher | Package manager | `npm install -g pnpm` |
-| **MongoDB** | 5.x or higher | Primary database | [mongodb.com](https://www.mongodb.com/try/download/community) |
-| **Redis** | 6.x or higher | Cache & queue backend | [redis.io](https://redis.io/download) |
-| **Git** | Latest | Source control | [git-scm.com](https://git-scm.com) |
+| Software    | Version        | Purpose               | Installation Link                                             |
+| ----------- | -------------- | --------------------- | ------------------------------------------------------------- |
+| **Node.js** | 18.x or higher | Runtime environment   | [nodejs.org](https://nodejs.org)                              |
+| **pnpm**    | 8.x or higher  | Package manager       | `npm install -g pnpm`                                         |
+| **MongoDB** | 5.x or higher  | Primary database      | [mongodb.com](https://www.mongodb.com/try/download/community) |
+| **Redis**   | 6.x or higher  | Cache & queue backend | [redis.io](https://redis.io/download)                         |
+| **Git**     | Latest         | Source control        | [git-scm.com](https://git-scm.com)                            |
 
 ### Optional but Recommended
 
@@ -73,6 +74,7 @@ Before beginning setup, ensure you have:
 ### Knowledge Prerequisites
 
 Basic understanding of:
+
 - Command line/terminal usage
 - REST APIs and HTTP methods
 - JSON data format
@@ -93,6 +95,7 @@ Basic understanding of:
 ### Operating Systems
 
 This guide covers setup for:
+
 - **Linux** (Ubuntu 20.04+, Debian, etc.)
 - **macOS** (10.15+)
 - **Windows** (10/11 with WSL2 recommended)
@@ -101,12 +104,12 @@ This guide covers setup for:
 
 Ensure these ports are available:
 
-| Port | Service | Purpose |
-|------|---------|---------|
-| 3000 | SafeguardMedia API | Main application server |
-| 27017 | MongoDB | Database server |
-| 6379 | Redis | Cache and queue server |
-| 3001 | Frontend (optional) | If testing with frontend |
+| Port  | Service             | Purpose                  |
+| ----- | ------------------- | ------------------------ |
+| 3000  | SafeguardMedia API  | Main application server  |
+| 27017 | MongoDB             | Database server          |
+| 6379  | Redis               | Cache and queue server   |
+| 3001  | Frontend (optional) | If testing with frontend |
 
 ---
 
@@ -140,6 +143,7 @@ pnpm install
 ```
 
 **Expected Output**:
+
 ```
 Packages: +XXX
 Progress: resolved XXX, reused XXX, downloaded XXX, added XXX
@@ -147,6 +151,7 @@ Done in XXs
 ```
 
 **Troubleshooting**:
+
 - If `pnpm` is not found: Run `npm install -g pnpm` first
 - If you get permission errors: Don't use `sudo`; fix npm permissions instead
 - If packages fail to install: Check your internet connection and npm registry
@@ -751,6 +756,7 @@ pnpm run dev
 ```
 
 **Troubleshooting**:
+
 - If MongoDB connection fails: Verify MongoDB is running and connection string is correct
 - If Redis connection fails: Verify Redis is running
 - If port 3000 is in use: Change PORT in `.env` or stop other process
@@ -845,6 +851,7 @@ KEYS *
 **Error**: `MongoNetworkError: failed to connect to server`
 
 **Solutions**:
+
 ```bash
 # Check if MongoDB is running
 sudo systemctl status mongod
@@ -861,6 +868,7 @@ sudo systemctl restart mongod
 **Error**: `Error: Redis connection to localhost:6379 failed`
 
 **Solutions**:
+
 ```bash
 # Check if Redis is running
 redis-cli ping
@@ -876,6 +884,7 @@ sudo systemctl start redis-server
 **Error**: `Error: listen EADDRINUSE: address already in use :::3000`
 
 **Solutions**:
+
 ```bash
 # Find process using port 3000
 lsof -i :3000
@@ -892,6 +901,7 @@ PORT=3001
 **Error**: `JWT_SECRET is required`
 
 **Solutions**:
+
 ```bash
 # Verify .env file exists
 ls -la .env
@@ -907,6 +917,7 @@ grep JWT_SECRET .env
 **Error**: `EACCES: permission denied`
 
 **Solutions**:
+
 ```bash
 # Don't use sudo with npm/pnpm
 # Fix npm permissions: https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
@@ -922,6 +933,7 @@ nvm use 18
 **Error**: `Cannot find module 'xyz'`
 
 **Solutions**:
+
 ```bash
 # Reinstall dependencies
 rm -rf node_modules
@@ -937,6 +949,7 @@ pnpm store prune
 **Error**: `error TS2304: Cannot find name...`
 
 **Solutions**:
+
 ```bash
 # Run type checking
 pnpm run type-check
@@ -983,8 +996,8 @@ Congratulations! Your testing environment is now set up.
 
 ---
 
-**[← Back to Test Plan](./TEST-PLAN.md)** | **[Next: Test Data →](./TEST-DATA.md)**
+**[← Back to Home](./README.md)** | **[Next: Authentication →](./features/01-authentication.md)**
 
 ---
 
-*Last Updated: December 2, 2025*
+_Last Updated: December 2, 2025_
