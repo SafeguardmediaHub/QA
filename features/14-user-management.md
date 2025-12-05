@@ -1726,3 +1726,7 @@ This test plan covers **70 comprehensive test cases** for the User Management fe
 - **Edge Cases**: 11 tests
 - **Security**: 8 tests
 - **Performance**: 7 tests
+
+**Next Feature**: [Feature 12: Admin Features →](./15-admin-features.md)
+
+**Previous Feature**: [← Feature 10: Analytics Reporting ](./13-analytics-reporting.md)

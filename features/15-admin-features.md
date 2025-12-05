@@ -1392,3 +1392,7 @@ This test plan covers **70 comprehensive test cases** for the Admin Features:
 - **Edge Cases**: 10 tests
 - **Security**: 10 tests
 - **Performance**: 7 tests
+
+**Home**: [Home →](../README.md)
+
+**Previous Feature**: [← Feature 11: User Management ](./14-user-management.md)

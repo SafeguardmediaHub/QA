@@ -1954,3 +1954,8 @@ This test plan covers **70 comprehensive test cases** for the Analytics & Report
 - **Edge Cases**: 10 tests
 - **Security**: 10 tests
 - **Performance**: 7 tests
+
+---
+**Next Feature**: [Feature 11: User Management →](./14-user-management.md)
+
+**Previous Feature**: [← Feature 09: Fact Checking ](./09-fact-checking.md)

@@ -1525,7 +1525,7 @@ _(Detailed test steps similar to previous features)_
 
 ---
 
-**Next Feature**: [Feature 08: Deepfake Detection →](./08-deepfake-detection.md)
+**Next Feature**: [Feature 08: Reverse Lookup →](./08-reverse-lookup.md)
 
 **Previous Feature**: [← Feature 06: Timeline Verification](./06-timeline-verification.md)
 

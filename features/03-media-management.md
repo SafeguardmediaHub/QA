@@ -1,7 +1,5 @@
 # Feature 03: Media Management
 
----
-
 **Feature**: Media Management\
 **Priority**: P0 - Critical\
 **Test Coverage**: CRUD operations, filtering, authorization\
@@ -62,13 +60,13 @@ http://localhost:3000/api/media
 
 ### Endpoint Summary
 
-| Endpoint | Method | Auth | Description |
-| --- | --- | --- | --- |
-| `/` | GET | Yes | List user's media with pagination and filtering |
-| `/:id` | GET | Yes | Retrieve single media file details by ID |
-| `/:id` | PATCH | Yes | Update media visibility and metadata |
-| `/:id` | DELETE | Yes | Delete single media file (soft delete) |
-| `/bulk` | DELETE | Yes | Bulk delete multiple media files (max 50) |
+| Endpoint | Method | Auth | Description                                     |
+| -------- | ------ | ---- | ----------------------------------------------- |
+| `/`      | GET    | Yes  | List user's media with pagination and filtering |
+| `/:id`   | GET    | Yes  | Retrieve single media file details by ID        |
+| `/:id`   | PATCH  | Yes  | Update media visibility and metadata            |
+| `/:id`   | DELETE | Yes  | Delete single media file (soft delete)          |
+| `/bulk`  | DELETE | Yes  | Bulk delete multiple media files (max 50)       |
 
 ---
 

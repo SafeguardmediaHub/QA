@@ -1918,6 +1918,6 @@ This test plan covers **70 comprehensive test cases** across all aspects of the 
 
 ---
 
-**Next Feature**: [Feature 10: Fact Checking →](./09-fact-checking.md)
+**Next Feature**: [Feature 10: Analytics & Reporting →](./13-analytics-reporting.md)
 
 **Previous Feature**: [← Feature 08: Reverse Lookup ](./08-reverse-lookup.md)
