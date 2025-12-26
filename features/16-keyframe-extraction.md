@@ -1,4 +1,4 @@
-# Feature 08: Keyframe Extraction Testing
+# Feature 16: Keyframe Extraction Testing
 
 **Feature:** Video Keyframe Extraction API  
 **Priority:** P0 - Critical  
